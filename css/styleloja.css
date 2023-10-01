@@ -1,0 +1,56 @@
+:root {
+  --body-color: #e4e9f7;
+  --sidebar-color: #fff;
+  --primary-color: #695cfe;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: #4f4f4f;
+  /*
+    --text-color: #707070;
+  */
+  /*transition*/
+
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
+/* Fim Transição */
+
+body {
+  height: 120vh;
+  background: var(--body-color);
+  transition: var(--tran-05);
+}
+
+body.dark {
+  --body-color: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+}
+
+/* Fim root */
+
+.mapa {
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.text2 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+}
+.text {
+  font-size: 2.5rem;
+  color: var(--text-color);
+}
+
+.textloja {
+  justify-content: center;
+}
