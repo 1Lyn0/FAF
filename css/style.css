@@ -171,6 +171,7 @@ body.dark .sidebar.close header .toggle {
 }
 
 .search-box input {
+  color: var(--text-color);
   height: 100%;
   width: 100%;
   outline: none;
