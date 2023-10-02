@@ -1,0 +1,93 @@
+:root {
+  --body-color: #e4e9f7;
+  --sidebar-color: #fff;
+  --primary-color: #695cfe;
+  --primary-color-light: #f6f5ff;
+  --toggle-color: #ddd;
+  --text-color: #4f4f4f;
+  --button-color: #ffffff;
+  /*
+  --text-color: #707070;
+*/
+  /*transition*/
+
+  --tran-02: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.4s ease;
+  --tran-05: all 0.5s ease;
+}
+
+body {
+  height: 100vh;
+  background: var(--body-color);
+  transition: var(--tran-05);
+  margin-left: 28px;
+}
+
+body.dark {
+  --body-color: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+  --button-color: #3a3b3c;
+}
+.text2 p {
+  font-size: 2rem;
+}
+
+.textreg {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.coluna {
+  display: inline-flex;
+}
+
+.reg img {
+  width: 600px;
+  height: 500px;
+  border: 9px solid white;
+  border-radius: 4px;
+  margin-left: 2rem;
+  margin-right: 15px;
+}
+
+.tct p {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.tcttext {
+  font-size: 2rem;
+}
+
+.butoes {
+  display: block;
+}
+
+button {
+  background: var(--button-color);
+  border-radius: 40px;
+  padding: 25px;
+  width: 20rem;
+  cursor: pointer;
+  color: var(--text-color);
+  border: none;
+  font-size: 50px;
+}
+
+button:hover {
+  background: var(--primary-color);
+}
+
+body.dark button:hover {
+  background: #695cfe;
+}
+
+#cetas {
+  margin-top: 20px;
+}
