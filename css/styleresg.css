@@ -33,6 +33,9 @@ body.dark {
   --text-color: #ccc;
   --button-color: #3a3b3c;
 }
+.text2 p {
+  font-size: 2rem;
+}
 
 .textreg {
   display: inline-flex;
