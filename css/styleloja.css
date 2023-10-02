@@ -47,10 +47,11 @@ body.dark {
   gap: 10rem;
 }
 .text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--text-color);
 }
 
 .textloja {
+  font-size: 2rem;
   justify-content: center;
 }
