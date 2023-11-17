@@ -35,16 +35,21 @@ body.dark {
 
 /* Fim root */
 
+.home .imgs {
+  width: 100%;
+  height: 100%;
+}
+
 .mapa {
   border-radius: 20px;
   justify-content: center;
+  position: relative;
 }
 
 .text2 {
-  display: inline-flex;
-  flex-wrap: wrap;
+  display: flex;
   justify-content: center;
-  gap: 10rem;
+  flex-wrap: wrap;
 }
 .text {
   font-size: 2rem;
@@ -52,6 +57,7 @@ body.dark {
 }
 
 .textloja {
-  font-size: 2rem;
+  font-size: 1.5;
   justify-content: center;
+  width: 40%;
 }

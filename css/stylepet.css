@@ -37,7 +37,7 @@ body.dark {
 
 .home .text2 {
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .cont {
@@ -63,11 +63,12 @@ body.dark {
 
 .cont .textbottom {
   margin-top: 0px;
+  font-size: 1.3rem;
   color: #4f4f4f;
 }
 
 .home .text2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   background-color: #695cfe;
   margin-left: 20px;
   margin-right: 40px;
