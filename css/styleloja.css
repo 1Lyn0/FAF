@@ -61,3 +61,23 @@ body.dark {
   justify-content: center;
   width: 40%;
 }
+  /*
+@media (max-width: 820px) {
+	.home {
+		position:fixed;
+		left:02%;
+	
+	}
+
+  .home .imgs {
+    width: 55%;
+    height: 55%;
+  }
+
+  .mapa {
+    border-radius: 20px;
+    justify-content: center;
+    position: relative;
+  }
+}
+
