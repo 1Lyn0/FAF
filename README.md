@@ -1,4 +1,4 @@
-# Projeto FAF (Fofos & Felizes)
+# Projeto FAF (Focinho a Focinho)
 
 [![Acessar o Site](https://img.shields.io/badge/Acessar%20o%20Site-FAF%20Online-blue?style=for-the-badge&logo=github)](https://1lyn0.github.io/FAF/)
 
